@@ -35,26 +35,26 @@ git reset --soft HEAD~<go back step count> (HEAD commits goes back by the count)
 git reset  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count but stays in wd)
 git reset --hard  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count and changes are deleted in wd)
 git reset --hard <hashed ID from reflog> ( Reseting the project to the hashed ID status )
-  </pre>
+</pre>
 ### GIT ADDITIONAL COMMANDS
 <pre>
 git switch <branchName> ( Changes current wd to the related branch )
 git switch -c <branchName> > ( Creates a new branch and changes current wd to the new branch )
  
 git ls-files (List of staging area files)
+
 git rm <fileName> ( Deletes the file from staging area)
 
 git restore . ( Undo Unstaged changes)
 git restore <fileName> ( Undo Unstaged changes of a specific file)
 git restore --staged <fileName> ( Undo staged changes of a specific file)
-
+git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
 
 git clean -dn (Lists all untracked files to be removed)
 git clean -df (Deletes all untracked files)
-git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
 
 git diff (Tells the differences of the merge conflicts )
-  </pre>
+</pre>
 
 ### GIT DEEPER COMMANDS
 <pre>
@@ -74,6 +74,5 @@ git tag ( Shows tag list)
 git tag -d <tagName> ( Deletes the tag with the specified name )
 git tag -a <tagName> -m “….” ( Adds a tag with annotation)
  
-git Show <tagName> ( Shows the details of the commit with specified tag name )
+git show <tagName> ( Shows the details of the commit with specified tag name )
  </pre>
-
