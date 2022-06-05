@@ -11,11 +11,11 @@
 •	git log (Log of the working directory)
   git log --merge ( Logging the conflict merge operation to understand which commits have conflict in the branches )
 
-•	git checkout <commit ID> ( Changes current wd to the related commit)
-  git checkout <branchName> ( Changes current wd to the related branch)
-  git checkout -b <branchName> ( Creates a new branch and changes current wd to the new branch )
-  git checkout . ( Undo Unstaged changes)
-  git checkout <fileName> ( Undo Unstaged changes of a specific file)
+•	git checkout <commit ID> ( Changes current wd to the related commit) <br>
+  git checkout <branchName> ( Changes current wd to the related branch) <br>
+  git checkout -b <branchName> ( Creates a new branch and changes current wd to the new branch ) <br>
+  git checkout . ( Undo Unstaged changes) <br>
+  git checkout <fileName> ( Undo Unstaged changes of a specific file) <br>
 
 •	git branch (List all branches)
   git branch <branchName> (Creates new branch)
