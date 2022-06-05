@@ -53,6 +53,8 @@ git clean -df (Deletes all untracked files)
 git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
 
 •	git diff (Tells the differences of the merge conflicts )
+ 
+ 
 ![image](https://user-images.githubusercontent.com/50409645/172053705-1b9efc32-021a-45ad-a675-5a3edb2b2ab0.png)
 
 
