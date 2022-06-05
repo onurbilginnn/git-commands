@@ -55,8 +55,6 @@ git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
 
 git diff (Tells the differences of the merge conflicts )
   </pre>
- 
-![image](https://user-images.githubusercontent.com/50409645/172053705-1b9efc32-021a-45ad-a675-5a3edb2b2ab0.png)
 
 ### GIT DEEPER COMMANDS
 <pre>
@@ -78,5 +76,4 @@ git tag -a <tagName> -m “….” ( Adds a tag with annotation)
  
 git Show <tagName> ( Shows the details of the commit with specified tag name )
  </pre>
-![image](https://user-images.githubusercontent.com/50409645/172053832-02772cbb-f541-4d8d-acce-2495ace4395c.png)
 
