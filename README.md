@@ -1,4 +1,4 @@
-## GIT BASIC COMMANDS
+### GIT BASIC COMMANDS
 
 •	git status (Status of the files in the working directory)
 •	git add . 
@@ -33,11 +33,7 @@ git reset  HEAD~<go back step count> (HEAD commits and latest stage adds goes ba
 git reset --hard  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count and changes are deleted in wd)
 git reset --hard <hashed ID from reflog> ( Reseting the project to the hashed ID status )
 
-
-
-
-
-## GIT ADDITIONAL COMMANDS
+### GIT ADDITIONAL COMMANDS
 •	git switch <branchName> ( Changes current wd to the related branch )
 git switch -c <branchName> > ( Creates a new branch and changes current wd to the new branch )
 •	git ls-files (List of staging area files)
@@ -57,8 +53,6 @@ git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
  
 ![image](https://user-images.githubusercontent.com/50409645/172053705-1b9efc32-021a-45ad-a675-5a3edb2b2ab0.png)
 
-
-
 ## GIT DEEPER COMMANDS
 
 •	git stash ( Reserving the changes into RAM without staging or committing for after commit )
@@ -77,7 +71,6 @@ git tag ( Shows tag list)
 git tag -d <tagName> ( Deletes the tag with the specified name )
 git tag -a <tagName> -m “….” ( Adds a tag with annotation)
 •	git Show <tagName> ( Shows the details of the commit with specified tag name )
-
 
  
 ![image](https://user-images.githubusercontent.com/50409645/172053686-a8a7565e-4695-4c11-99c3-6689b50d6aa6.png)
