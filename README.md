@@ -17,7 +17,6 @@ git checkout <branchName> ( Changes current wd to the related branch)
 git checkout -b <branchName> ( Creates a new branch and changes current wd to the new branch )
 git checkout . ( Undo Unstaged changes)
 git checkout <fileName> ( Undo Unstaged changes of a specific file)
- </pre>
 
 git branch (List all branches)<br>
 git branch <branchName> (Creates new branch)<br>
@@ -36,8 +35,9 @@ git reset --soft HEAD~<go back step count> (HEAD commits goes back by the count)
 git reset  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count but stays in wd)
 git reset --hard  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count and changes are deleted in wd)
 git reset --hard <hashed ID from reflog> ( Reseting the project to the hashed ID status )
-
+  </pre>
 ### GIT ADDITIONAL COMMANDS
+<pre>
 git switch <branchName> ( Changes current wd to the related branch )
 git switch -c <branchName> > ( Creates a new branch and changes current wd to the new branch )
  
@@ -54,12 +54,12 @@ git clean -df (Deletes all untracked files)
 git restore --staged <fileName> ( Undo Unstaged changes of a specific file)
 
 git diff (Tells the differences of the merge conflicts )
- 
+  </pre>
  
 ![image](https://user-images.githubusercontent.com/50409645/172053705-1b9efc32-021a-45ad-a675-5a3edb2b2ab0.png)
 
-## GIT DEEPER COMMANDS
-
+### GIT DEEPER COMMANDS
+<pre>
 git stash ( Reserving the changes into RAM without staging or committing for after commit )
 git stash push -m “….” ( Stashing the changes with a message )
 git stash apply ( Gets the latest stashed changes to the wd in order to stage and commit – STACK / LIFO)
@@ -77,6 +77,6 @@ git tag -d <tagName> ( Deletes the tag with the specified name )
 git tag -a <tagName> -m “….” ( Adds a tag with annotation)
  
 git Show <tagName> ( Shows the details of the commit with specified tag name )
-
+ </pre>
 ![image](https://user-images.githubusercontent.com/50409645/172053832-02772cbb-f541-4d8d-acce-2495ace4395c.png)
 
