@@ -17,10 +17,10 @@
   git checkout . ( Undo Unstaged changes) <br>
   git checkout <fileName> ( Undo Unstaged changes of a specific file) <br>
 
-•	git branch (List all branches)
-  git branch <branchName> (Creates new branch)
-  git branch -d <branchName> (Deletes branch)
-  git branch -D <branchName> (Force delete branch)
+•	git branch (List all branches)<br>
+  git branch <branchName> (Creates new branch)<br>
+  git branch -d <branchName> (Deletes branch)<br>
+  git branch -D <branchName> (Force delete branch)<br>
 
 •	git merge <branchName> (Merges the branch with the current branch that we are in)
   git merge --squash <branchName> ( Combines all commits to one commit in the target branch and stages it to source branch )
