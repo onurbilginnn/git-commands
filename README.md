@@ -1,5 +1,5 @@
 ### GIT BASIC COMMANDS
-
+<pre>
 •	git status (Status of the files in the working directory)
 
 •	git add . 
@@ -12,10 +12,11 @@
   git log --merge ( Logging the conflict merge operation to understand which commits have conflict in the branches )
 
 •	git checkout <commit ID> ( Changes current wd to the related commit)
-<pre>  git checkout <branchName> ( Changes current wd to the related branch)
+  git checkout <branchName> ( Changes current wd to the related branch)
   git checkout -b <branchName> ( Creates a new branch and changes current wd to the new branch )
   git checkout . ( Undo Unstaged changes)
-  git checkout <fileName> ( Undo Unstaged changes of a specific file)</pre>
+  git checkout <fileName> ( Undo Unstaged changes of a specific file)
+ </pre>
 
 •	git branch (List all branches)<br>
   git branch <branchName> (Creates new branch)<br>
