@@ -72,5 +72,5 @@ git tag -d <tagName> ( Deletes the tag with the specified name )
 git tag -a <tagName> -m “….” ( Adds a tag with annotation)
 •	git Show <tagName> ( Shows the details of the commit with specified tag name )
 
- 
+![image](https://user-images.githubusercontent.com/50409645/172053832-02772cbb-f541-4d8d-acce-2495ace4395c.png)
 
