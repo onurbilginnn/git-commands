@@ -73,4 +73,4 @@ git tag -a <tagName> -m “….” ( Adds a tag with annotation)
 •	git Show <tagName> ( Shows the details of the commit with specified tag name )
 
  
-![image](https://user-images.githubusercontent.com/50409645/172053686-a8a7565e-4695-4c11-99c3-6689b50d6aa6.png)
+
