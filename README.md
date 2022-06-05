@@ -1,29 +1,29 @@
 ### GIT BASIC COMMANDS
 <pre>
-•	git status (Status of the files in the working directory)
+  git status (Status of the files in the working directory)
 
-•	git add . 
+	git add . 
   git add <filename> (Move unstaged files to staging area)
  
-•	git commit -m “….” (Move staging area files to commit objects folder)
-•	git config <commands> (Configuration of git)
+	git commit -m “….” (Move staging area files to commit objects folder)
+	git config <commands> (Configuration of git)
 
-•	git log (Log of the working directory)
+	git log (Log of the working directory)
   git log --merge ( Logging the conflict merge operation to understand which commits have conflict in the branches )
 
-•	git checkout <commit ID> ( Changes current wd to the related commit)
+	git checkout <commit ID> ( Changes current wd to the related commit)
   git checkout <branchName> ( Changes current wd to the related branch)
   git checkout -b <branchName> ( Creates a new branch and changes current wd to the new branch )
   git checkout . ( Undo Unstaged changes)
   git checkout <fileName> ( Undo Unstaged changes of a specific file)
  </pre>
 
-•	git branch (List all branches)<br>
+	git branch (List all branches)<br>
   git branch <branchName> (Creates new branch)<br>
   git branch -d <branchName> (Deletes branch)<br>
   git branch -D <branchName> (Force delete branch)<br>
 
-•	git merge <branchName> (Merges the branch with the current branch that we are in)
+	git merge <branchName> (Merges the branch with the current branch that we are in)
   git merge --squash <branchName> ( Combines all commits to one commit in the target branch and stages it to source branch )
   git merge --no-ff <branchName> ( Recursive merge: If any commit has been made after creating the merged target branch we use recursive merge ) 
   git merge --abort (Aborts the merge operation; useful in merge conflict situations )
