@@ -25,7 +25,7 @@ git branch -D <branchName> (Force delete branch)<br>
 
 git merge <branchName> (Merges the branch with the current branch that we are in)
 git merge --squash <branchName> ( Combines all commits to one commit in the target branch and stages it to source branch )
-git merge --no-ff <branchName> ( Recursive merge: If any commit has been made after creating<br /> the merged target branch we use recursive merge ) 
+git merge --no-ff <branchName> ( Recursive merge: If any commit has been made after creating the merged target branch <br/> we use recursive merge ) 
 git merge --abort (Aborts the merge operation; useful in merge conflict situations )
 
 git cherry-pick <commit ID> ( adding the change in the commit to the target branch)
