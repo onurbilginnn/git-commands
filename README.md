@@ -29,8 +29,8 @@ git branch -vv ( Detailed list of local branches )
 git branch --delete --remotes <alias>/<branchName> ( Deletes remote tracking branch )
 
 git merge <branchName> (Merges the branch with the current branch that we are in )
-git merge --squash <branchName> ( Combines all commits to one commit in the target branch and stages it to source branch )
-git merge --no-ff <branchName> ( Recursive merge: If any commit has been made after creating the merged target branch <br/> we use recursive merge ) 
+git merge --squash <branchName> ( Combines all commits to one commit in the target branch and stages it to source<br/> branch )
+git merge --no-ff <branchName> ( Recursive merge: If any commit has been made after creating the merged target branch<br/> we use recursive merge ) 
 git merge --abort (Aborts the merge operation; useful in merge conflict situations )
 
 git cherry-pick <commit ID> ( adding the change in the commit to the target branch )
@@ -38,7 +38,7 @@ git cherry-pick <commit ID> ( adding the change in the commit to the target bran
 git reset <fileName> (Bring back the latest status before changes )
 git reset --soft HEAD~<go back step count> (HEAD commits goes back by the count )
 git reset  HEAD~<go back step count> (HEAD commits and latest stage adds goes back by the count but stays in wd )
-git reset --hard  HEAD~<go back step count> ( HEAD commits and latest stage adds goes back by the count and changes are deleted in wd )
+git reset --hard  HEAD~<go back step count> ( HEAD commits and latest stage adds goes back by the count and changes<br/> are deleted in wd )
 git reset --hard <hashed ID from reflog> ( Reseting the project to the hashed ID status )
 </pre>
 ### GIT ADDITIONAL COMMANDS
@@ -83,14 +83,14 @@ git show <tagName> ( Shows the details of the commit with specified tag name )
  </pre>
 ### GITHUB COMMANDS
 <pre>
-git remote add <alias> <url> ( Connects remote repository; git to Github by an url; “origin” is default alias of the repository in Github )
+git remote add <alias> <url> ( Connects remote repository; git to Github by an url; “origin” is default alias of the<br/> repository in Github )
 git remote ( Lists all remote aliases )
 git remote Show <alias> ( Show detailed configuration of the remote alias )
 
-git push <alias> <branch> ( Pushes the code to the remote repository branch through alias and creates a new remote branch if it does not exist )
-git push -u <alias> <branch> ( Pushes the code to the remote repository branch through alias, creates both a track and a new remote branch if it does not exist )
+git push <alias> <branch> ( Pushes the code to the remote repository branch through alias and creates a new remote<br/> branch if it does not exist )
+git push -u <alias> <branch> ( Pushes the code to the remote repository branch through alias, creates both a track<br/> and a new remote branch if it does not exist )
 git push <alias>  --delete <branchName> ( Deletes remote branch and remote tracking branch if it exists )
-git push --force <alias> <branchName> ( Pushes the code by force, it does not care if the pushed code is behind remote code )
+git push --force <alias> <branchName> ( Pushes the code by force, it does not care if the pushed code is behind<br/> remote code )
 
 git pull <alias> <branch> ( Pulls the code to local by merging the changes )
 
