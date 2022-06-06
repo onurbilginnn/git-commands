@@ -1,6 +1,6 @@
 ### GIT BASIC COMMANDS
 <pre>
-git status ( Status of the files in the working directory )
+git status ( Status of the files in the working directory(wd) )
 
 git add . 
 git add <filename> ( Move unstaged files to staging area )
