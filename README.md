@@ -1,3 +1,5 @@
+> :warning: **If you are using mobile browser**: Be very careful here!
+
 ### GIT BASIC COMMANDS
 <pre>
 git status ( Status of the files in the working directory(wd) )
