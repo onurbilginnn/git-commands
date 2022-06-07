@@ -1,4 +1,5 @@
-> :warning: **If you are using mobile browser**: Be very careful here!
+> :warning: **When you are running the git commands on terminal please omit single quotes;
+> Ex: git add test.txt
 
 ### GIT BASIC COMMANDS
 <pre>
